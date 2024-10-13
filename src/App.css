@@ -22,6 +22,16 @@ body,
   animation-delay: 5.5s;
 }
 
+.hackclub {
+  z-index: 5;
+  height: 10%;
+  width: 10%;
+  opacity: 1;
+  top: -1vh;
+  left: 4vw;
+  position: absolute;
+}
+
 .logo {
   z-index: 2;
   opacity: 0;
@@ -64,7 +74,7 @@ body,
   z-index: 2;
   overflow: hidden;
   max-width: 80vw;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -106,6 +116,18 @@ body,
 
 .animated-blur {
   animation: blurAnimation 2s forwards; /* 5s duration, infinite loop */
+}
+
+.info {
+  margin: 10%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
 }
 
 @keyframes blurAnimation {
@@ -170,39 +192,69 @@ body,
     left: 50%;
   }
   to {
-    left: 56%;
+    left: 54%;
   }
+}
+
+.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
 }
 
 h1 {
 	font-size: 7em;
 	margin-bottom: 0px;
 	margin-top: 0px;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 h2 {
-	font-weight: 800;
-	font-size: 2.6em;
+	font-size: 2.55em;
 	margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 h3 {
 	font-size: 2.5em;
 	margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 h4 {
 	font-size: 1.75em;
 	margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 p {
 	font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 li {
 	font-size: 1.5em;
 	padding-bottom: .5em;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .cover {
@@ -221,6 +273,23 @@ li {
 
 .hori {
 	flex-direction: row;
+}
+
+.contact-flex {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+	margin: 0 6.5%; /* Adjust margins as needed */
+  display: flex; /* Make sure columns are also flex containers */
+  flex-direction: column; /* Stack columns vertically */
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; /* Stacks contact items vertically */
+  align-items: flex-start;
+  gap: 15px; /* Adds spacing between contact items */
 }
 
 .column {
@@ -269,6 +338,12 @@ li {
 
   .name {
     top: 49vh;
+  }
+
+  .hackclub {
+    top: -9vh;
+    height: 25vh;
+    width: 25vw;
   }
 }
 

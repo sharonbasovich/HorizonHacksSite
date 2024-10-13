@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <div className="screen">
+        <img className="hackclub" src="/flag-orpheus-top.svg" />
         <h1 className="text typed name">HorizonHacks</h1>
         <h1 className="text year">2024</h1>
         <img src="/logo.svg" className="logo" />
@@ -85,6 +86,92 @@ function App() {
               </ul>
             </div>
           </Reveal>
+        </div>
+      </div>
+      <div className="cover even">
+        <div className="contact-flex">
+          <h2 style={{ padding: 20 }}>
+            <br />
+            Contact Us
+          </h2>
+          <div className="contact-info">
+            <div className="contact">
+              <a
+                style={{ display: "inline-flex" }}
+                href="https://www.instagram.com/horizonhacksca/"
+              >
+                <img src="https://skillicons.dev/icons?i=instagram" />
+              </a>
+              <p style={{ display: "inline-flex", paddingLeft: 20 }}>
+                horizonhacksca
+              </p>
+            </div>
+            <div className="contact">
+              <a
+                style={{ display: "inline-flex" }}
+                href="mailto:info@horizonhacks.com"
+              >
+                <img src="https://skillicons.dev/icons?i=gmail&theme=light" />
+              </a>
+              <p style={{ display: "inline-flex", paddingLeft: 20 }}>
+                horizonhacks.ca
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="contact-flex">
+          <h2 style={{ padding: 20 }}>Fiscal Sponsors</h2>
+          <div className="contact-info">
+            <div className="contact">
+              <a
+                style={{ display: "inline-flex" }}
+                href="https://hackclub.com/fiscal-sponsorship/"
+              >
+                <img style={{ height: 48 }} src="/hcb-light.svg" />
+              </a>
+              <p style={{ display: "inline-flex", paddingLeft: 20 }}>
+                Hack Club Bank
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="contact-flex">
+          <h2 style={{ padding: 20 }}>Website Contributors</h2>
+          <div className="contact-info">
+            <div className="contact">
+              <a
+                style={{ display: "inline-flex" }}
+                href="https://www.instagram.com/horizonhacksca/"
+              >
+                <img className="rounded" src="/sharon.jfif" />
+              </a>
+              <p style={{ display: "inline-flex", paddingLeft: 20 }}>
+                Sharon Basovich
+              </p>
+            </div>
+            <div className="contact">
+              <a
+                style={{ display: "inline-flex" }}
+                href="mailto:info@horizonhacks.com"
+              >
+                <img className="rounded" src="/felix.png" />
+              </a>
+              <p style={{ display: "inline-flex", paddingLeft: 20 }}>
+                Felix Zhang
+              </p>
+            </div>
+            <div className="contact">
+              <a
+                style={{ display: "inline-flex" }}
+                href="mailto:info@horizonhacks.com"
+              >
+                <img className="rounded" src="/soroush.png" />
+              </a>
+              <p style={{ display: "inline-flex", paddingLeft: 20 }}>
+                Soroush Paidar
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </>
