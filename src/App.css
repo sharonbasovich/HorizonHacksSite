@@ -266,6 +266,10 @@ li {
 		margin-left: 10%;
 		margin-right: 10%;
 	}
+
+  .name {
+    top: 48vh;
+  }
 }
 
 @media only screen and (orientation: landscape) {
