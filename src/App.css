@@ -274,10 +274,10 @@ li {
 
 @media only screen and (orientation: landscape) {
   .name {
-    top: 46vh; /* Adjust vertical positioning */
+    top: 44vh; /* Adjust vertical positioning */
   }
 
   .year {
-    top: 55vh;
+    top: 56vh;
   }
 }
