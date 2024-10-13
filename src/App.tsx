@@ -3,6 +3,7 @@ import Lottie, { LottieRefCurrentProps } from "lottie-react";
 import animationData from "./assets/Animation - 1728786951301.json";
 import { useRef, useEffect } from "react";
 import Reveal from "./components/Reveal";
+import { div } from "framer-motion/client";
 
 function App() {
   const lottieRef = useRef<LottieRefCurrentProps>(null); // Create a ref for the Lottie animation
@@ -19,7 +20,10 @@ function App() {
         <h1 className="text typed name">HorizonHacks</h1>
         <h1 className="text year">2024</h1>
         <img src="/logo.svg" className="logo" />
-        <img src="/sunset.webp" className="background animated-blur" />
+
+          <img src="/sunset.webp" className="background animated-blur" />
+
+
         <div className="scroll">
           <Lottie lottieRef={lottieRef} animationData={animationData} />
         </div>
