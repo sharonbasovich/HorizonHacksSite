@@ -19,7 +19,7 @@ body,
   transform: translate(-50%, -50%); /* Adjust for true centering */
   animation: fade 1s steps(80, end);
   animation-fill-mode: forwards;
-  animation-delay: 5.5s;
+  animation-delay: 6s;
 }
 
 .hackclub {
@@ -359,6 +359,10 @@ li {
     top: -19vh;
     height: 25vh;
     width: 25vw;
+  }
+
+  .logo {
+    top: 47vh;
   }
 }
 
