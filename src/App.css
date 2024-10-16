@@ -5,7 +5,7 @@ body,
   padding: 0;
   height: 100%;
   overflow-x: hidden;
-  background-image: url("public/Cover_5.png");
+  background-image: url("/Cover_5.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #171617;
