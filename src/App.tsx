@@ -139,9 +139,13 @@ function App() {
                 >
                   <img src="https://skillicons.dev/icons?i=instagram" />
                 </a>
-                <p style={{ display: "inline-flex", paddingLeft: 20 }}>
+                <a
+                  href="https://www.instagram.com/horizonhacksca/"
+                  className="link-text"
+                  style={{ display: "inline-flex", paddingLeft: 20 }}
+                >
                   horizonhacksca
-                </p>
+                </a>
               </div>
             </Reveal>
             <Reveal>
@@ -152,9 +156,13 @@ function App() {
                 >
                   <img src="https://skillicons.dev/icons?i=gmail&theme=light" />
                 </a>
-                <p style={{ display: "inline-flex", paddingLeft: 20 }}>
+                <a
+                  href="mailto:horizonhacks24@gmail.com"
+                  className="link-text"
+                  style={{ display: "inline-flex", paddingLeft: 20 }}
+                >
                   horizonhacks24@gmail.com
-                </p>
+                </a>
               </div>
             </Reveal>
           </div>
@@ -174,9 +182,13 @@ function App() {
                 >
                   <img style={{ height: 48 }} src="/hcb-light.svg" />
                 </a>
-                <p style={{ display: "inline-flex", paddingLeft: 20 }}>
+                <a
+                  href="https://hackclub.com/fiscal-sponsorship/"
+                  style={{ display: "inline-flex", paddingLeft: 20 }}
+                  className="link-text"
+                >
                   Hack Club Bank
-                </p>
+                </a>
               </div>
             </Reveal>
           </div>
@@ -196,9 +208,13 @@ function App() {
                 >
                   <img className="rounded" src="/sharon.jfif" />
                 </a>
-                <p style={{ display: "inline-flex", paddingLeft: 20 }}>
+                <a
+                  href="https://github.com/sharonbasovich/"
+                  className="link-text"
+                  style={{ display: "inline-flex", paddingLeft: 20 }}
+                >
                   Sharon Basovich
-                </p>
+                </a>
               </div>
             </Reveal>
             <Reveal>
@@ -209,9 +225,13 @@ function App() {
                 >
                   <img className="rounded" src="/felix.png" />
                 </a>
-                <p style={{ display: "inline-flex", paddingLeft: 20 }}>
+                <a
+                  className="link-text"
+                  href="https://github.com/MrMan314"
+                  style={{ display: "inline-flex", paddingLeft: 20 }}
+                >
                   Felix Zhang
-                </p>
+                </a>
               </div>
             </Reveal>
             <Reveal>
@@ -222,9 +242,13 @@ function App() {
                 >
                   <img className="rounded" src="/soroush.png" />
                 </a>
-                <p style={{ display: "inline-flex", paddingLeft: 20 }}>
+                <a
+                  className="link-text"
+                  href="https://github.com/sub-roc"
+                  style={{ display: "inline-flex", paddingLeft: 20 }}
+                >
                   Soroush Paidar
-                </p>
+                </a>
               </div>
             </Reveal>
           </div>
