@@ -5,7 +5,10 @@ body,
   padding: 0;
   height: 100%;
   overflow-x: hidden;
-  background-color: #909dbc;
+  background-image: url("public/Cover_5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #171617;
 }
 
 .scroll {

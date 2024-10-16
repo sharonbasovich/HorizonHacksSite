@@ -148,12 +148,12 @@ function App() {
               <div className="contact">
                 <a
                   style={{ display: "inline-flex" }}
-                  href="mailto:info@horizonhacks.com"
+                  href="mailto:horizonhacks24@gmail.com"
                 >
                   <img src="https://skillicons.dev/icons?i=gmail&theme=light" />
                 </a>
                 <p style={{ display: "inline-flex", paddingLeft: 20 }}>
-                  horizonhacks.ca
+                  horizonhacks24@gmail.com
                 </p>
               </div>
             </Reveal>
