@@ -3,7 +3,7 @@ import Lottie, { LottieRefCurrentProps } from "lottie-react";
 import animationData from "./assets/Animation - 1728786951301.json";
 import { useRef, useEffect } from "react";
 import Reveal from "./components/Reveal";
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
 
 function App() {
   const lottieRef = useRef<LottieRefCurrentProps>(null); // Create a ref for the Lottie animation
@@ -14,12 +14,41 @@ function App() {
     }
   }, []);
 
+  const icon = {
+    hidden: {
+      pathLength: 0,
+      fill: "rgba(187, 109, 209, 0)",
+    },
+    visible: {
+      pathLength: 1,
+      fill: "rgba(187, 109, 209, 1)",
+    },
+  };
+
   return (
     <>
       <div className="screen">
+        <motion.div
+          className="box-animation"
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.8, borderRadius: "80%" }}
+          onTap={() => {
+            window.location.href =
+              "https://docs.google.com/document/d/1bIPB54qwW36ZnCl_whg5_fMRucPSJXIIOt7IWCoZv4w/edit?tab=t.0#heading=h.omw9gy62jmrh";
+          }}
+        >
+          <h1 className="box-text">
+            <a
+              style={{ color: "#BB6DD1" }}
+              href="https://docs.google.com/document/d/1bIPB54qwW36ZnCl_whg5_fMRucPSJXIIOt7IWCoZv4w/edit?tab=t.0#heading=h.omw9gy62jmrh"
+            >
+              Info
+            </a>
+          </h1>
+        </motion.div>
         <motion.img
           animate={{ y: "10vh" }}
-          transition={{ delay: 5.75 }}
+          transition={{ delay: 2.75 }}
           className="hackclub"
           src="/flag-orpheus-top.svg"
         />
