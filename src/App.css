@@ -118,7 +118,7 @@ body,
 }
 
 .animated-blur {
-  animation: blurAnimation 2s forwards; /* 5s duration, infinite loop */
+  /*animation: blurAnimation 2s forwards; /* 5s duration, infinite loop */
 }
 
 .info {
@@ -148,7 +148,7 @@ body,
   border-right: 0.05em solid transparent; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.05em; /* Adjust as needed */
+  letter-spacing: 0.0em; /* Adjust as needed */
   animation: typing 3s steps(40, end) forwards 3s,
     blink-caret 1.6s steps(40, end) forwards 3s,
     slide 0.5s steps(80, end) forwards 5s;
@@ -171,13 +171,13 @@ body,
     border-color: transparent;
   }
   25% {
-    border-color: orange;
+    border-color: #BB6DD1;
   }
   50% {
     border-color: transparent;
   }
   75% {
-    border-color: orange;
+    border-color: #BB6DD1;
   }
 }
 
@@ -195,7 +195,7 @@ body,
     left: 50%;
   }
   to {
-    left: 54%;
+    left: 52.5%;
   }
 }
 
@@ -214,6 +214,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 5 00;
   font-style: normal;
+  color: white;
 }
 
 h2 {
@@ -223,6 +224,7 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  color: white;
 }
 
 h3 {
@@ -232,6 +234,7 @@ h3 {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  color: white;
 }
 
 h4 {
@@ -241,6 +244,7 @@ h4 {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  color: white;
 }
 
 p {
@@ -249,6 +253,7 @@ p {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
 
 .link-text {
@@ -262,6 +267,11 @@ p {
   color: white;
 }
 
+.link-text:hover {
+  color: #BB6DD1;
+  text-decoration: underline;
+}
+
 li {
 	font-size: 1.5em;
 	padding-bottom: .5em;
@@ -269,6 +279,7 @@ li {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
 
 .bottom {

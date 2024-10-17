@@ -30,7 +30,7 @@ function App() {
           src="/logo.svg"
           className="logo"
         />
-        <img src="/sunset.webp" className="background animated-blur" />
+        <img src="/horizon.jpg" className="background animated-blur" />
         <div className="scroll">
           <Lottie lottieRef={lottieRef} animationData={animationData} />
         </div>
