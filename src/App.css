@@ -141,9 +141,9 @@ body,
   object-fit: cover; /* Makes sure the image covers the container */
 }
 
-.animated-blur {
-  /*animation: blurAnimation 2s forwards; /* 5s duration, infinite loop */
-}
+/*.animated-blur {
+  animation: blurAnimation 2s forwards; /* 5s duration, infinite loop 
+}*/
 
 .info {
   margin: 10%;

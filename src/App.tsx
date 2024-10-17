@@ -3,7 +3,7 @@ import Lottie, { LottieRefCurrentProps } from "lottie-react";
 import animationData from "./assets/Animation - 1728786951301.json";
 import { useRef, useEffect } from "react";
 import Reveal from "./components/Reveal";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 function App() {
   const lottieRef = useRef<LottieRefCurrentProps>(null); // Create a ref for the Lottie animation
@@ -16,12 +16,10 @@ function App() {
 
   const icon = {
     hidden: {
-      pathLength: 0,
-      fill: "rgba(187, 109, 209, 0)",
+      opacity: 0,
     },
     visible: {
-      pathLength: 1,
-      fill: "rgba(187, 109, 209, 1)",
+      opacity: 1,
     },
   };
 
@@ -32,6 +30,10 @@ function App() {
           className="box-animation"
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.8, borderRadius: "80%" }}
+          variants={icon}
+          initial="hidden"
+          animate="visible"
+          transition={{opacity: {duration: 0.5, delay: 3}}}
           onTap={() => {
             window.location.href =
               "https://docs.google.com/document/d/1bIPB54qwW36ZnCl_whg5_fMRucPSJXIIOt7IWCoZv4w/edit?tab=t.0#heading=h.omw9gy62jmrh";
