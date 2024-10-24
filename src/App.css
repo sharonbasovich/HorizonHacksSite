@@ -96,7 +96,7 @@ body,
   z-index: 1;
   text-align: center;
   margin: auto;
-  font-size: 3vw;
+  font-size: 2.3vw;
 }
 
 .box-animation {
@@ -111,6 +111,13 @@ body,
   display: flex;
   background: white;
   border-radius: 30px;
+}
+
+
+.signup {
+  left: 52vw !important;
+  width: 13vw;
+  background: #BB6DD1 !important;
 }
 
 
@@ -419,6 +426,10 @@ li {
     height: 2.5vh;
     top: 51vh;
     left: 62vw;
+  }
+
+  .signup {
+    left: 48vw !important;
   }
 
 }

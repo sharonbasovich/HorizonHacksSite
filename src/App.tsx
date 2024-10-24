@@ -33,7 +33,7 @@ function App() {
           variants={icon}
           initial="hidden"
           animate="visible"
-          transition={{opacity: {duration: 0.5, delay: 3}}}
+          transition={{ opacity: { duration: 0.5, delay: 3 } }}
           onTap={() => {
             window.location.href =
               "https://docs.google.com/document/d/1bIPB54qwW36ZnCl_whg5_fMRucPSJXIIOt7IWCoZv4w/edit?tab=t.0#heading=h.omw9gy62jmrh";
@@ -45,6 +45,27 @@ function App() {
               href="https://docs.google.com/document/d/1bIPB54qwW36ZnCl_whg5_fMRucPSJXIIOt7IWCoZv4w/edit?tab=t.0#heading=h.omw9gy62jmrh"
             >
               Info
+            </a>
+          </h1>
+        </motion.div>
+        <motion.div
+          className="box-animation signup"
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.8, borderRadius: "80%" }}
+          variants={icon}
+          initial="hidden"
+          animate="visible"
+          transition={{ opacity: { duration: 0.5, delay: 3 } }}
+          onTap={() => {
+            window.location.href = "https://forms.gle/sjQqJDkTBfsqErwo6";
+          }}
+        >
+          <h1 className="box-text">
+            <a
+              style={{ color: "white" }}
+              href="https://forms.gle/sjQqJDkTBfsqErwo6"
+            >
+              Register
             </a>
           </h1>
         </motion.div>
@@ -61,7 +82,7 @@ function App() {
           src="/logo.svg"
           className="logo"
         />
-        <img src="/horizon.jpg" className="background animated-blur" />
+        <img src="/sunset.png" className="background animated-blur" />
         <div className="scroll">
           <Lottie lottieRef={lottieRef} animationData={animationData} />
         </div>
