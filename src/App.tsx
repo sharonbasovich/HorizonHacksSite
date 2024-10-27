@@ -53,7 +53,7 @@ function App() {
           whileHover={{ scale: 1.2 }}
           onClick={() => {
             window.open(
-              "https://docs.google.com/document/d/1bIPB54qwW36ZnCl_whg5_fMRucPSJXIIOt7IWCoZv4w/edit?tab=t.0#heading=h.omw9gy62jmrh",
+              "https://docs.google.com/forms/d/e/1FAIpQLSfx3VD0zANMnRal2avXC6hWToQEuLJ4vs9CVwLYPZQc8L_geQ/viewform",
               "_blank"
             );
             return false;
