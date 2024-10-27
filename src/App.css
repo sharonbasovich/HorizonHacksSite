@@ -5,10 +5,10 @@ body,
   padding: 0;
   height: 100%;
   overflow-x: hidden;
-  background-image: url("/Cover_5.png");
+
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #171617;
+  background-color: #0d1124;
 }
 
 .scroll {
@@ -113,11 +113,10 @@ body,
   border-radius: 30px;
 }
 
-
 .signup {
-  left: 52vw !important;
+  left: 51vw !important;
   width: 13vw;
-  background: #BB6DD1 !important;
+  background: #978CB8 !important;
 }
 
 

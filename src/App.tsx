@@ -26,49 +26,45 @@ function App() {
   return (
     <>
       <div className="screen">
-        <motion.div
+        <motion.button
+          variants={icon}
+          initial="hidden"
+          animate="visible"
+          transition={{ opacity: { duration: 0.5, delay: 3 } }}
+          whileHover={{ scale: 1.2 }}
+          onClick={() => {
+            window.open(
+              "https://docs.google.com/document/d/1bIPB54qwW36ZnCl_whg5_fMRucPSJXIIOt7IWCoZv4w/edit?tab=t.0#heading=h.omw9gy62jmrh",
+              "_blank"
+            );
+            return false;
+          }}
           className="box-animation"
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.8, borderRadius: "80%" }}
+        >
+          <h1 className="box-text" style={{ color: "#978CB8" }}>
+            Info
+          </h1>
+        </motion.button>
+        <motion.button
           variants={icon}
           initial="hidden"
           animate="visible"
           transition={{ opacity: { duration: 0.5, delay: 3 } }}
-          onTap={() => {
-            window.location.href =
-              "https://docs.google.com/document/d/1bIPB54qwW36ZnCl_whg5_fMRucPSJXIIOt7IWCoZv4w/edit?tab=t.0#heading=h.omw9gy62jmrh";
+          whileHover={{ scale: 1.2 }}
+          onClick={() => {
+            window.open(
+              "https://docs.google.com/document/d/1bIPB54qwW36ZnCl_whg5_fMRucPSJXIIOt7IWCoZv4w/edit?tab=t.0#heading=h.omw9gy62jmrh",
+              "_blank"
+            );
+            return false;
           }}
-        >
-          <h1 className="box-text">
-            <a
-              style={{ color: "#BB6DD1" }}
-              href="https://docs.google.com/document/d/1bIPB54qwW36ZnCl_whg5_fMRucPSJXIIOt7IWCoZv4w/edit?tab=t.0#heading=h.omw9gy62jmrh"
-            >
-              Info
-            </a>
-          </h1>
-        </motion.div>
-        <motion.div
           className="box-animation signup"
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.8, borderRadius: "80%" }}
-          variants={icon}
-          initial="hidden"
-          animate="visible"
-          transition={{ opacity: { duration: 0.5, delay: 3 } }}
-          onTap={() => {
-            window.location.href = "https://forms.gle/sjQqJDkTBfsqErwo6";
-          }}
         >
-          <h1 className="box-text">
-            <a
-              style={{ color: "white" }}
-              href="https://forms.gle/sjQqJDkTBfsqErwo6"
-            >
-              Register
-            </a>
+          <h1 className="box-text" style={{ color: "white" }}>
+            Register
           </h1>
-        </motion.div>
+        </motion.button>
+
         <motion.img
           animate={{ y: "10vh" }}
           transition={{ delay: 2.75 }}
@@ -82,7 +78,7 @@ function App() {
           src="/logo.svg"
           className="logo"
         />
-        <img src="/sunset.png" className="background animated-blur" />
+        <img src="/background.png" className="background animated-blur" />
         <div className="scroll">
           <Lottie lottieRef={lottieRef} animationData={animationData} />
         </div>
@@ -211,7 +207,12 @@ function App() {
                 <a
                   href="mailto:horizonhacks24@gmail.com"
                   className="link-text"
-                  style={{ display: "inline-flex", paddingLeft: 20 }}
+                  style={{
+                    display: "inline-flex",
+                    paddingLeft: 20,
+                    wordBreak: "break-all",
+                    whiteSpace: "normal",
+                  }}
                 >
                   horizonhacks24@gmail.com
                 </a>
