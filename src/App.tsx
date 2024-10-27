@@ -89,7 +89,7 @@ function App() {
           <div className="content">
             <div className="bottom">
               <Reveal>
-                <h2>
+                <h2 style={{width: "100%"}}>
                   What is Horizon Hacks?
                 </h2>
               </Reveal>
