@@ -129,12 +129,14 @@ function App() {
             </div>
             <Reveal>
               <p>
-                For <b>HorizonHacks 2024</b>, our theme will be studying.
-                Participants will create a program to assist students in their
-                studying. Key problems surrounding this topic may include
-                procrastination, burnout, and information retention. In the name
-                of fairness, a detailed case will be revealed on the first day
-                so no team has an advantage.
+                For <b>HorizonHacks Mini 2024</b>, our theme will be Lifestyle &
+                Health. Participants will create a program to support
+                individuals in building healthier habits and enhancing overall
+                well-being. Key challenges surrounding this topic may include
+                issues like stress management, daily routine optimization, and
+                sustainable health practices. To ensure fairness, a detailed
+                case will be revealed on the first day, so no team has an
+                advantage.
               </p>
             </Reveal>
           </div>
@@ -148,14 +150,14 @@ function App() {
             </div>
             <Reveal>
               <ul>
-                <li>2 day format</li>
+                <li>48-Hour Online Hackathon</li>
               </ul>
             </Reveal>
             <Reveal>
               <ul>
                 <li>
                   Participants will use the first day to build teams and develop
-                  their ideas
+                  their ideas.
                 </li>
               </ul>
             </Reveal>
