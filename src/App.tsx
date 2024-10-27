@@ -89,7 +89,9 @@ function App() {
           <div className="content">
             <div className="bottom">
               <Reveal>
-                <h2>What is HorizonHacks?</h2>
+                <h2>
+                  What is Horizon Hacks?
+                </h2>
               </Reveal>
             </div>
             <Reveal>
@@ -216,7 +218,9 @@ function App() {
                     whiteSpace: "normal",
                   }}
                 >
-                  horizonhacks24@gmail.com
+                  horizonhacks24
+                  <br />
+                  @gmail.com
                 </a>
               </div>
             </Reveal>

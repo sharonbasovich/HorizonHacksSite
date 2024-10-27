@@ -385,6 +385,11 @@ li {
     flex-direction: column;
   }
 
+  .bottom {
+    width: 100%;
+    height: 300px; 
+  }
+
   .hori {
     flex-direction: column;
   }
