@@ -89,9 +89,7 @@ function App() {
           <div className="content">
             <div className="bottom">
               <Reveal>
-                <h2 style={{width: "100%"}}>
-                  What is Horizon Hacks?
-                </h2>
+                <h2 style={{ width: "100%" }}>What is Horizon Hacks?</h2>
               </Reveal>
             </div>
             <Reveal>
@@ -174,6 +172,35 @@ function App() {
             </Reveal>
           </div>
         </div>
+      </div>
+      <div style={{ padding: 70 }}>
+        <Reveal>
+          <h1>What is a hackathon?</h1>
+        </Reveal>
+        <Reveal>
+          <p>
+            A hackathon is an event where participants (hackers) design,
+            develop, and pitch an innovative project built from scratch over the
+            course of 48 hours. Over the course of the hackathon, hackers will
+            have opportunities to network, learn, and collaborate through
+            workshops, panels, activities, and more.
+          </p>
+        </Reveal>
+      </div>
+      <div style={{ padding: 70 }}>
+        <Reveal>
+          <h1>What do I need?</h1>
+        </Reveal>
+        <Reveal>
+          <p>
+            All you need is a laptop with a code editor or IDE! All other tools
+            that you may need will be provided at the event or can be found
+            online for free, so don't worry about purchasing things yourself!
+            <br></br>
+            <br></br>
+            Oh, and one more thing, make sure to have tons of fun!
+          </p>
+        </Reveal>
       </div>
       <div className="cover even">
         <div className=" left contact-flex">
