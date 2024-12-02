@@ -71,7 +71,7 @@ function App() {
           className="hackclub"
           src="/flag-orpheus-top.svg"
         />
-        <h1 className="text typed name">HorizonHacks</h1>
+        <h1 className="text typed name">HorizonHacks Mini</h1>
         <h1 className="text year">2024</h1>
         <motion.img
           whileHover={{ scale: 1.1 }}
