@@ -34,7 +34,7 @@ function App() {
           whileHover={{ scale: 1.2 }}
           onClick={() => {
             window.open(
-              "https://docs.google.com/document/d/1bIPB54qwW36ZnCl_whg5_fMRucPSJXIIOt7IWCoZv4w/edit?tab=t.0#heading=h.omw9gy62jmrh",
+              "https://docs.google.com/document/d/1DOmnpXkw3r0BEL6bFacUOZr7a_aM5WO6mbOqunujRWY/edit?usp=sharing",
               "_blank"
             );
             return false;
@@ -53,7 +53,7 @@ function App() {
           whileHover={{ scale: 1.2 }}
           onClick={() => {
             window.open(
-              "https://docs.google.com/forms/d/e/1FAIpQLSfx3VD0zANMnRal2avXC6hWToQEuLJ4vs9CVwLYPZQc8L_geQ/viewform",
+              "https://forms.gle/tHR3cRLzpyqyKLxg6",
               "_blank"
             );
             return false;
