@@ -208,6 +208,8 @@ function App() {
           <h3>
             Who can participate?
           </h3>
+        </Reveal>
+        <Reveal>
           <p>
             We welcome hackers of all experience levels, whether you've never
             coded in your life or code competitively!
@@ -217,6 +219,8 @@ function App() {
           <h3>
             Is the event free?
           </h3>
+        </Reveal>
+        <Reveal>
           <p>
             Yes, HorizonHacks is completely free!
           </p>
@@ -225,6 +229,8 @@ function App() {
           <h3>
             Do I need a team?
           </h3>
+        </Reveal>
+        <Reveal>
           <p>
             Not necessarily, but we do allow teams of up to three people. You can
             form teams either on our Discord prior to the event or at the event
@@ -233,6 +239,8 @@ function App() {
         </Reveal>
         <Reveal>
           <h3>What do I need?</h3>
+        </Reveal>
+        <Reveal>
           <p>
             All you need is a laptop with a code editor or IDE! All other tools
             that you may need will be provided at the event or can be found
@@ -244,6 +252,8 @@ function App() {
         </Reveal>
         <Reveal>
           <h3>Can I participate virtually?</h3>
+        </Reveal>
+        <Reveal>
           <p>
             Yes, HorizonHacks will be hybrid! You can choose to come in-person
             between 9 AM and 5 PM both days or compete completely online.
