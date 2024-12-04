@@ -69,7 +69,7 @@ function App() {
           src="/flag-orpheus-top.svg"
         />
         <h1 className="text typed name">HorizonHacks</h1>
-        <h1 className="text year">2024</h1>
+        <h1 className="text year">2025</h1>
         <motion.img
           whileHover={{ scale: 1.1 }}
           src="/logo.svg"
@@ -126,7 +126,7 @@ function App() {
             </div>
             <Reveal>
               <p>
-                For <b>HorizonHacks Mini 2024</b>, our theme will be Lifestyle &
+                For <b>HorizonHacks 2025</b>, our theme will be Lifestyle &
                 Health. Participants will create a program to support
                 individuals in building healthier habits and enhancing overall
                 well-being. Key challenges surrounding this topic may include
@@ -147,7 +147,10 @@ function App() {
             </div>
             <Reveal>
               <ul>
-                <li>48-Hour Online Hackathon</li>
+                <li>48-Hour hybrid hackathon
+                  <ul>In-person (optional) between 9 AM and 5 PM both days</ul>
+                  <ul>Completely online between 5 PM and 9 AM</ul>
+                </li>
               </ul>
             </Reveal>
             <Reveal>
@@ -196,6 +199,64 @@ function App() {
             <br></br>
             <br></br>
             Oh, and one more thing, make sure to have tons of fun!
+          </p>
+        </Reveal>
+        <Reveal>
+          <h1>Frequently Asked Questions (FAQ)</h1>
+        </Reveal>
+        <Reveal>
+          <h3>
+            Who can participate?
+          </h3>
+        </Reveal>
+        <Reveal>
+          <p>
+            We welcome hackers of all experience levels, whether you've never
+            coded in your life or code competitively!
+          </p>
+        </Reveal>
+        <Reveal>
+          <h3>
+            Is the event free?
+          </h3>
+        </Reveal>
+        <Reveal>
+          <p>
+            Yes, HorizonHacks is completely free!
+          </p>
+        </Reveal>
+        <Reveal>
+          <h3>
+            Do I need a team?
+          </h3>
+        </Reveal>
+        <Reveal>
+          <p>
+            Not necessarily, but we do allow teams of up to three people. You can
+            form teams either on our Discord prior to the event or at the event
+            itself!
+          </p>
+        </Reveal>
+        <Reveal>
+          <h3>What do I need?</h3>
+        </Reveal>
+        <Reveal>
+          <p>
+            All you need is a laptop with a code editor or IDE! All other tools
+            that you may need will be provided at the event or can be found
+            online for free, so don't worry about purchasing things yourself!
+            <br></br>
+            <br></br>
+            Oh, and one more thing, make sure to have tons of fun!
+          </p>
+        </Reveal>
+        <Reveal>
+          <h3>Can I participate virtually?</h3>
+        </Reveal>
+        <Reveal>
+          <p>
+            Yes, HorizonHacks will be hybrid! You can choose to come in-person
+            between 9 AM and 5 PM both days or compete completely online.
           </p>
         </Reveal>
       </div>
