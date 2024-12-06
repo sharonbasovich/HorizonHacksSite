@@ -395,7 +395,7 @@ li {
 
 .cover {
   width: 100%;
-  min-height: 100%;
+  min-height: 60%;
   background: none;
   display: flex;
   align-items: stretch;
