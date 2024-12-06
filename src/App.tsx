@@ -183,7 +183,10 @@ function App() {
       </div>
       <div style={{ padding: 70 }}>
         <Reveal>
-          <h1>What is a hackathon?</h1>
+          <h1>Frequently Asked Questions (FAQ)</h1>
+        </Reveal>
+        <Reveal>
+          <h3>What is a hackathon?</h3>
         </Reveal>
         <Reveal>
           <p>
@@ -193,24 +196,6 @@ function App() {
             have opportunities to network, learn, and collaborate through
             workshops, panels, activities, and more.
           </p>
-        </Reveal>
-      </div>
-      <div style={{ padding: 70 }}>
-        <Reveal>
-          <h1>What do I need?</h1>
-        </Reveal>
-        <Reveal>
-          <p>
-            All you need is a laptop with a code editor or IDE! All other tools
-            that you may need will be provided at the event or can be found
-            online for free, so don't worry about purchasing things yourself!
-            <br></br>
-            <br></br>
-            Oh, and one more thing, make sure to have tons of fun!
-          </p>
-        </Reveal>
-        <Reveal>
-          <h1>Frequently Asked Questions (FAQ)</h1>
         </Reveal>
         <Reveal>
           <h3>Who can participate?</h3>
