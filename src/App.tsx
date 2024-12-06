@@ -8,10 +8,16 @@ import loadData from "./assets/load.json";
 
 function App() {
   const lottieRef = useRef<LottieRefCurrentProps>(null); // Create a ref for the Lottie animation
-
+  const lottieRef2 = useRef<LottieRefCurrentProps>(null); // Create a ref for the Lottie animation
   useEffect(() => {
     if (lottieRef.current) {
       lottieRef.current.setSpeed(0.5); // Set the speed here
+    }
+  }, []);
+
+  useEffect(() => {
+    if (lottieRef2.current) {
+      lottieRef2.current.setSpeed(0.40); // Set the speed here
     }
   }, []);
 
@@ -27,7 +33,7 @@ function App() {
   return (
     <>
       <div className="load">
-        <Lottie className="loadAnimation" animationData={loadData} />
+        <Lottie className="loadAnimation" lottieRef={lottieRef2} animationData={loadData} />
         <img src="/black.webp" className="loadBackground" />
         <img src="/logo.svg" className="loadLogo" />
       </div>
@@ -37,7 +43,7 @@ function App() {
           variants={icon}
           initial="hidden"
           animate="visible"
-          transition={{ opacity: { duration: 0.5, delay: 6 } }}
+          transition={{ opacity: { duration: 0.5, delay: 6.2 } }}
           whileHover={{ scale: 1.2 }}
           onClick={() => {
             window.open(
@@ -56,7 +62,7 @@ function App() {
           variants={icon}
           initial="hidden"
           animate="visible"
-          transition={{ opacity: { duration: 0.5, delay: 6 } }}
+          transition={{ opacity: { duration: 0.5, delay: 6.2 } }}
           whileHover={{ scale: 1.2 }}
           onClick={() => {
             window.open("https://forms.gle/tHR3cRLzpyqyKLxg6", "_blank");
