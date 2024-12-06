@@ -4,6 +4,7 @@ import animationData from "./assets/Animation - 1728786951301.json";
 import { useRef, useEffect } from "react";
 import Reveal from "./components/Reveal";
 import { motion } from "framer-motion";
+import loadData from "./assets/load.json";
 
 function App() {
   const lottieRef = useRef<LottieRefCurrentProps>(null); // Create a ref for the Lottie animation
@@ -25,12 +26,18 @@ function App() {
 
   return (
     <>
+      <div className="load">
+        <Lottie className="loadAnimation" animationData={loadData} />
+        <img src="/black.webp" className="loadBackground" />
+        <img src="/logo.svg" className="loadLogo" />
+      </div>
+
       <div className="screen">
         <motion.button
           variants={icon}
           initial="hidden"
           animate="visible"
-          transition={{ opacity: { duration: 0.5, delay: 3 } }}
+          transition={{ opacity: { duration: 0.5, delay: 6 } }}
           whileHover={{ scale: 1.2 }}
           onClick={() => {
             window.open(
@@ -49,7 +56,7 @@ function App() {
           variants={icon}
           initial="hidden"
           animate="visible"
-          transition={{ opacity: { duration: 0.5, delay: 3 } }}
+          transition={{ opacity: { duration: 0.5, delay: 6 } }}
           whileHover={{ scale: 1.2 }}
           onClick={() => {
             window.open("https://forms.gle/tHR3cRLzpyqyKLxg6", "_blank");
@@ -64,7 +71,7 @@ function App() {
 
         <motion.img
           animate={{ y: "10vh" }}
-          transition={{ delay: 2.75 }}
+          transition={{ delay: 5.75 }}
           className="hackclub"
           src="/flag-orpheus-top.svg"
         />

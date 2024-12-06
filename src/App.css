@@ -10,6 +10,69 @@ body,
   background-color: #0d1124;
 }
 
+.loadLogo {
+  position: absolute;
+  width: 20vw;
+  top: 50vh; /* Center vertically */
+  left: 50vw; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for true centering */
+  z-index: 10;
+  animation: 
+  fadeOut 0.3s steps(80, end) 1.7s forwards,
+  hideLoad 0.1s steps(1, end) 2.1s forwards;
+}
+
+.load {
+  position: absolute;
+  height: 100vh; /* Center vertically */
+  width: 100vw; /* Center horizontally */
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.loadBackground {
+  position: absolute;
+  top: 50vh; /* Center vertically */
+  left: 50vw; /* Center horizontally */
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%); /* Adjust for true centering */
+  z-index: 9;
+  animation: 
+  fadeOut 0.3s steps(80, end) 1.7s forwards,
+  hideLoad 0.1s steps(1, end) 2.1s forwards;
+}
+
+.loadAnimation {
+  rotate: 270deg;
+  top: 50vh; /* Center vertically */
+  left: 50vw; /* Center horizontally */
+  width: 30vw;
+  z-index: 10;
+  animation: fadeOut 0.3s steps(80, end) 1.7s forwards,
+    hideLoad 0.1s steps(1, end) 2.1s forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes hideLoad {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 0;
+  }
+}
+
 .scroll {
   opacity: 0;
   z-index: 3;
@@ -21,7 +84,7 @@ body,
   transform: translate(-50%, -50%); /* Adjust for true centering */
   animation: fade 1s steps(80, end);
   animation-fill-mode: forwards;
-  animation-delay: 3.2s;
+  animation-delay: 6.2s;
 }
 
 .hackclub {
@@ -46,7 +109,7 @@ body,
   position: absolute;
   animation: fade 1s steps(80, end);
   animation-fill-mode: forwards;
-  animation-delay: 2.2s;
+  animation-delay: 5.2s;
 }
 
 .block {
@@ -125,7 +188,7 @@ body,
   transform: translate(-50%, -50%); /* Adjust for true centering */
   animation: fade 1s steps(80, end);
   animation-fill-mode: forwards;
-  animation-delay: 2.2s;
+  animation-delay: 5.2s;
 }
 
 .content {
@@ -179,6 +242,7 @@ body,
   animation: typing 3s steps(40, end) forwards,
     blink-caret 1.4s steps(40, end) forwards,
     slide 0.5s steps(80, end) forwards 2s;
+  animation-delay: 3s;
 }
 
 /* The typing effect */
@@ -296,7 +360,7 @@ p {
 
 .link-text:hover {
   color: #bb6dd1;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 li {
@@ -387,7 +451,7 @@ li {
 
   .bottom {
     width: 100%;
-    height: 300px; 
+    height: 300px;
   }
 
   .hori {
@@ -413,7 +477,7 @@ li {
 
   .name {
     top: 49vh;
-    font-size: 9vw;;
+    font-size: 9vw;
   }
 
   .hackclub {
